@@ -244,15 +244,17 @@ h1 {
 
     .parameter-container {
         flex-direction: column;
+        
     }
 
     .parameter {
         flex-basis: 100%;
+        max-width: none;
     }
 
     .form-container {
         flex-direction: column;
-        align-items: stretch;
+        align-items: center;
         gap: 10px;
     }
 
